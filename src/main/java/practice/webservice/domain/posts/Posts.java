@@ -1,9 +1,9 @@
-package practice.webservice.web.domain.posts;
+package practice.webservice.domain.posts;
 
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import practice.webservice.web.domain.BaseTimeEntity;
+import practice.webservice.domain.BaseTimeEntity;
 
 import javax.persistence.*;
 

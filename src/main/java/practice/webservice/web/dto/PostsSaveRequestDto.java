@@ -3,7 +3,7 @@ package practice.webservice.web.dto;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import practice.webservice.web.domain.posts.Posts;
+import practice.webservice.domain.posts.Posts;
 
 @Getter
 @NoArgsConstructor

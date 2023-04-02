@@ -1,18 +1,16 @@
 package practice.webservice.web;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.http.*;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
-import practice.webservice.web.domain.posts.Posts;
-import practice.webservice.web.domain.posts.PostsRepository;
+import practice.webservice.domain.posts.Posts;
+import practice.webservice.domain.posts.PostsRepository;
 import practice.webservice.web.dto.PostsSaveRequestDto;
 import practice.webservice.web.dto.PostsUpdateRequestDto;
 

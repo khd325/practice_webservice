@@ -1,11 +1,12 @@
 package practice.webservice.web.domain.posts;
 
 import lombok.extern.slf4j.Slf4j;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import practice.webservice.domain.posts.Posts;
+import practice.webservice.domain.posts.PostsRepository;
 
 import java.time.LocalDateTime;
 import java.util.List;
